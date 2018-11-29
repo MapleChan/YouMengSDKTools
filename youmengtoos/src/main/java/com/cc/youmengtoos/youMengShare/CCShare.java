@@ -36,6 +36,15 @@ public class CCShare {
 	}
 
 	/**
+	 * 分享QQ和微信，友盟的弹窗（测试用）
+	 * @param activity
+	 */
+	public void shareToQQandWeiChat(String string,Activity activity) {
+		new ShareAction(activity).withText(string).setDisplayList(SHARE_MEDIA.QQ, SHARE_MEDIA.WEIXIN)
+				.setCallback(shareListener).open();
+	}
+
+	/**
 	 * 分享到QQ
 	 *
 	 * @param title
