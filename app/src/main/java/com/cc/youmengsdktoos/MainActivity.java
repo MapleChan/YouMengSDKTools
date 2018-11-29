@@ -68,7 +68,7 @@ public class MainActivity extends AppCompatActivity {
 
 		*//**
 		 * @descrption 分享取消的回调
-		 * @param platform 平台类型
+//		 * @param platform平台类型
 		 *//*
 		@Override
 		public void onCancel(SHARE_MEDIA platform) {
