@@ -17,12 +17,12 @@ import java.util.Map;
  * date （时间）: 2018/11/28 16:00
  * Describe（描述）:
  */
-public class CCLgoin {
+public class CCLogin {
 	private Context context;
 	private Map<String, String> paramsac;
 	private UMAuthListener umAuthListener;
 
-	public CCLgoin(Context myContext, UMAuthListener myUmAuthListener) {
+	public CCLogin(Context myContext, UMAuthListener myUmAuthListener) {
 		this.context = myContext;
 		this.umAuthListener = myUmAuthListener;
 	}
